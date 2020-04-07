@@ -1,0 +1,25 @@
+body{
+    background: coral;
+}
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color:#fff;
+    font-size: 80px;
+    border: 8px solid white;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Lucida Sans', Verdana, sans-serif, cursive;
+    background-color: lightblue;
+    box-shadow: 0 0 5px 5px black;
+
+}
+label{
+	position: absolute;
+    top: 30%;
+    left: 35%;
+    color: lightblue;
+    text-shadow:3px 3px black;
+    font-size: 50px;
+}
